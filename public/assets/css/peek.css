@@ -1,13 +1,13 @@
     .character-container {
         position: relative;
         overflow: hidden;
-        width: 200px; /* Adjust the size of the container according to your character image */
-        height: 200px; /* Adjust the size of the container according to your character image */
+        width: 200px; 
+        height: 200px; 
     }
 
     .character-container img {
         position: absolute;
-        top: -100%; /* Move the character image below the container */
+        top: -100%; 
         left: 0;
-        transition: top 0.5s ease; /* Smooth transition effect */
+        transition: top 0.5s ease; 
     }
