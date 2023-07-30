@@ -4,7 +4,7 @@
   .top-section{
     background-color: var(--background-nav-light);
     color: #50595c;
-    ;
+    font-size: 1.5rem;
   }
 
   .carousel-item {
@@ -51,11 +51,11 @@
 
   .navbar{
     background-color: #E1B0AC;
-
+    font-size: 1.2rem;
   }
   .navbar-toggler {
     padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
@@ -86,6 +86,7 @@
   text-decoration: none;
   color: #50595c;
   font-style: 'Poppins', sans-serif;
+  font-size: 2rem;
 }
 
 .custom-card {
@@ -103,20 +104,20 @@
 :root {
   
   /*========== Colors ==========*/
-  --title-color: #50595c;
-  --text-color: #50595c;
+  --title-color: #E1C5C0;
+  --text-color: #E1C5C0;
   --text-color-light: #e99b9b; 
   --background-nav-light: #E1B0AC; 
-  --body-color: #eed9c4;
+  --body-color: #302939;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .875rem;
-  --smaller-font-size: .813rem;
+  --h1-font-size: 2.2rem;
+  --h2-font-size: 1.9rem;
+  --h3-font-size: 1.4rem;
+  --normal-font-size: 1.2rem;
+  --small-font-size: 1.1rem;
+  --smaller-font-size: 1rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -143,11 +144,9 @@ html{
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-  --title-color: #E1C5C0;
-  --text-color: #E1C5C0;
-  --text-color-light: #e99b9b; 
-  --background-nav-light: #E1B0AC; 
-  --body-color: #302939;
+  --title-color: #50595c;
+  --text-color: #50595c;
+  --body-color: #eed9c4;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -167,12 +166,12 @@ body.dark-theme{
 
 /*========== Font size variables to scale cv ==========*/
 body.scale-cv{
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .875rem;
-  --smaller-font-size: .813rem;
+  --h1-font-size: 2.2rem;
+  --h2-font-size: 1.9rem;
+  --h3-font-size: 1.4rem;
+  --normal-font-size: 1.2rem;
+  --small-font-size: 1.1rem;
+  --smaller-font-size: 1rem;
 }
 
 /*========== Generate PDF button ==========*/
