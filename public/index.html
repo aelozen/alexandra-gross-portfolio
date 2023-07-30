@@ -4,7 +4,8 @@
     <!-- Meta tags and CSS links -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home Page</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Alexandra Gross</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,9 +25,7 @@
             <div class="col-sm-8 col-md-7 py-4">
               <h4>About Me</h4>
               <p>
-                Below you will find a few of my highlighted coding projects and
-                my consolidated resume. On another page you can see my research projects. Check out my contact information to
-                connect with me.
+                Coding projects and stuff. <br> Research projects too.<br> Contact info. <br> You know, typical portfolio things.
               </p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
@@ -36,12 +35,12 @@
                   <a
                     href="https://www.linkedin.com/in/alexandra-gross-612702274/"
                     class="nav-link" target="_blank"
-                    >View my Linkedin Profile</a
+                    >View my LinkedIn</a
                   >
                 </li>
                 <li>
                   <a href="https://github.com/aelozen" target="_blank" class="nav-link"
-                    >View my GitHub Profile</a
+                    >View my GitHub</a
                   >
                 </li>
                 <li>
@@ -71,9 +70,19 @@
           >
             Info
           </button>
+
+          <!--Theme Change Button-->
+          <i
+          class="bx bx-moon change-theme"
+          title="Theme"
+          id="theme-button"
+        ></i>
+
         </div>
       </div>
     </header>
+
+    <!--BEGIN CAROUSEL-->
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
         <li
@@ -152,7 +161,8 @@
     <div class="navbar shadow-sm">
 
     </div>
-    <!--BEGIN CAROUSEL-->
+
+    <!--BEGIN CARDS-->
     <div class="container album">
       <h1 class="text-center">Highlighted Coding Projects</h1>
       <br />
@@ -210,18 +220,20 @@
               <div class="d-flex justify-content-between align-items-center">
                 <!-- Start: view | edit button -->
                 <div class="btn-group">
-                  <button
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
                     View
-                  </button>
-                  <button
+                </a>
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
+                    target="_blank"
+                    href="https://github.com/aelozen/restock-shopping-cart"
                   >
                     Repository
-                  </button>
+                </a>
                 </div>
                 <!-- End: view | edit button --><small></small>
               </div>
@@ -243,18 +255,20 @@
               <div class="d-flex justify-content-between align-items-center">
                 <!-- Start: view | edit button -->
                 <div class="btn-group">
-                  <button
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
                     View
-                  </button>
-                  <button
+                </a>
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
+                    target="_blank"
+                    href="https://github.com/aelozen/three-tier-uso"
                   >
                     Repository
-                  </button>
+                </a>
                 </div>
                 <!-- End: view | edit button --><small></small>
               </div>
@@ -279,18 +293,22 @@
               <div class="d-flex justify-content-between align-items-center">
                 <!-- Start: view | edit button -->
                 <div class="btn-group">
-                  <button
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
+                    target="_blank"
+                    href="https://www.youtube.com/embed/1GQKnl8HNAU"
                   >
                     View
-                  </button>
-                  <button
+                </a>
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
+                    target="_blank"
+                    href="https://github.com/aelozen/bus-tracker"
                   >
                     Repository
-                  </button>
+                </a>
                 </div>
                 <!-- End: view | edit button --><small></small>
               </div>
@@ -312,18 +330,22 @@
               <div class="d-flex justify-content-between align-items-center">
                 <!-- Start: view | edit button -->
                 <div class="btn-group">
-                  <button
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
+                    target="_target"
+                    href="/pages/eyes"
                   >
                     View
-                  </button>
-                  <button
+                </a>
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
+                    target="_blank"
+                    href="https://github.com/aelozen/eyes"
                   >
                     Repository
-                  </button>
+                </a>
                 </div>
                 <!-- End: view | edit button --><small></small>
               </div>
@@ -345,18 +367,22 @@
               <div class="d-flex justify-content-between align-items-center">
                 <!-- Start: view | edit button -->
                 <div class="btn-group">
-                  <button
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
+                    target="_blank"
+                    href="/pages/pacman"
                   >
                     View
-                  </button>
-                  <button
+                </a>
+                  <a
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
-                  >
+                    target="_blank"
+                    href="https://github.com/aelozen/pacmen-exercise"
+                    >
                     Repository
-                  </button>
+                </a>
                 </div>
                 <!-- End: view | edit button --><small></small>
               </div>
@@ -377,12 +403,6 @@
                 <h1 class="home__title">ALEXANDRA <b>GROSS</b></h1>
                 <h3 class="home__profession">Full Stack Developer</h3>
                 <div>
-                  <a
-                    download=""
-                    href="assets/pdf/ResumeCv.pdf"
-                    class="home__button-movil"
-                    >Download CV</a
-                  >
                 </div>
               </div>
               <!-- <div class="home__address bd-grid"> -->
@@ -397,20 +417,6 @@
               <!-- </span> -->
               <!-- </div> -->
             </div>
-
-            <!-- Theme change button -->
-            <i
-              class="bx bx-moon change-theme"
-              title="Theme"
-              id="theme-button"
-            ></i>
-
-            <!-- Button to generate and download the pdf. Available for desktop. -->
-            <i
-              class="bx bx-download generate-pdf"
-              title="Generate PDF"
-              id="resume-button"
-            ></i>
           </section>
 
           <!--========== PROFILE ==========-->
@@ -439,8 +445,8 @@
                 <div class="education__data bd-grid">
                   <h3 class="education__title">BACHELOR OF SCIENCE</h3>
                   <span class="education__studies"
-                    >George Washington University</span
-                  >
+                    >George Washington University <em> ~ magna cum laude </em> 
+                </span>
                   <span class="education__year">2013 - 2017</span>
                 </div>
               </div>
@@ -453,7 +459,7 @@
                 <div class="education__data bd-grid">
                   <h3 class="education__title">BACHELOR OF ARTS</h3>
                   <span class="education__studies"
-                    >George Washington University</span
+                    >George Washington University<em> ~ magna cum laude </em></span
                   >
                   <span class="education__year">2013 - 2017</span>
                 </div>
@@ -820,7 +826,7 @@
     <br />
     <footer class="text-muted text-center">
       <div class="container">
-        <p>&copy;Aelozen 2023 with the unwavering support of &copy; Bootstrap5</p>
+        <p>&copy;Aelozen 2023 with the unwavering support and format from &copy; Bootstrap5</p>
       </div>
     </footer>
 
