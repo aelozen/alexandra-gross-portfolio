@@ -103,11 +103,11 @@
 :root {
   
   /*========== Colors ==========*/
-  --title-color: #E1C5C0;
-  --text-color: #E1C5C0;
+  --title-color: #50595c;
+  --text-color: #50595c;
   --text-color-light: #e99b9b; 
   --background-nav-light: #E1B0AC; 
-  --body-color: #302939;
+  --body-color: #eed9c4;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -143,9 +143,11 @@ html{
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-  --title-color: #50595c;
-  --text-color: #50595c;
-  --body-color: #eed9c4;
+  --title-color: #E1C5C0;
+  --text-color: #E1C5C0;
+  --text-color-light: #e99b9b; 
+  --background-nav-light: #E1B0AC; 
+  --body-color: #302939;
 }
 
 /*========== Button Dark/Light ==========*/
