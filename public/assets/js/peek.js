@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const characterImg = document.querySelector(".character-container img");
     const containerHeight = document.querySelector(".character-container").clientHeight;
-    const peekAmount = 40;
+    const peekAmount = 30;
 
     function peekIn() {
         characterImg.style.top = `-${peekAmount}px`;
