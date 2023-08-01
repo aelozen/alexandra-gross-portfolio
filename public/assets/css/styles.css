@@ -653,10 +653,32 @@ Show menu
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
   .nav__list{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem .5rem;
+  }
+   .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    overflow: auto; /* or overflow: scroll; */
+  }
+  .top-section{
+    background-color: var(--background-nav-light);
+    color: #50595c;
+    font-size: 1rem;
+    position:relative;
+  }
+  .navbar a.navbar-brand,
+  .navbar a.navbar-brand:hover,
+  .navbar a.nav-link,
+  .navbar a.nav-link:hover {
+    text-decoration: none;
+    color: #50595c;
+    font-style: 'Poppins', sans-serif;
+    font-size: 1rem;
   }
 }
 
